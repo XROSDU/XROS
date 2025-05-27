@@ -1,0 +1,7 @@
+id=xros_magisk
+name=XROS_Magisk
+version=v2.3.1
+versionCode=1
+author=XROS
+description=xros magisk module @XROS(https://github.com/XROS/XROS)
+updateJson=https://raw.githubusercontent.com/XROS/XROS/refs/heads/main/xros-contrib/xros-magisk/magisk_update.json

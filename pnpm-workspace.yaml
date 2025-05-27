@@ -1,0 +1,5 @@
+packages:
+  - 'xros-web/frontend'
+  - 'xros-web/frontend-lib'
+  - 'xros-gui'
+  - 'tauri-plugin-vpnservice'

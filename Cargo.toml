@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = [
+    "xros",
+    "xros-gui/src-tauri",
+    "xros-rpc-build",
+    "xros-web",
+    "xros-contrib/xros-ffi",
+]
+default-members = ["xros", "xros-web"]
+
+[profile.dev]
+panic = "unwind"
+
+[profile.release]
+panic = "abort"
+lto = true
+codegen-units = 1
+opt-level = 'z'
+strip = true

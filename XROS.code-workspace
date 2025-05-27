@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "gui",
+			"path": "xros-gui"
+		},
+		{
+			"name": "core",
+			"path": "xros"
+		},
+		{
+			"name": "vpnservice",
+			"path": "tauri-plugin-vpnservice"
+		},
+		{
+			"name": "rpc-build",
+			"path": "xros-rpc-build"
+		}
+	],
+	"settings": {
+		"i18n-ally.sourceLanguage": "cn",
+		"i18n-ally.keystyle": "nested",
+		"i18n-ally.sortKeys": true,
+		// Disable the default formatter
+		"prettier.enable": false,
+	}
+}
